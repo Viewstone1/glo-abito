@@ -202,3 +202,126 @@ body {
   display: inline-block;
   margin-bottom: 5px;
 }
+
+.main-single {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content {
+  max-width: 460px;
+  margin-right: 30px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 357px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.content-text {
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.author {
+  min-width: 264px;
+}
+
+.author-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.author-avatar {
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.rating {
+  margin-bottom: 5px;
+}
+
+.rating-counter {
+  opacity: 0.5;
+  margin-left: 10px;
+}
+
+.author-status {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+  height: 54px;
+  margin-bottom: 14px;
+  border: none;
+}
+
+.button-succes {
+  background: #14b4be;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.single-price {
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.page-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
